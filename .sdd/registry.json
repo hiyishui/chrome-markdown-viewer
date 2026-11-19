@@ -1,0 +1,14 @@
+{
+  "active": [
+    {
+      "id": "R-20260930-markdown-viewer",
+      "path": ".sdd/active/R-20260930-markdown-viewer",
+      "status": "ACTIVE",
+      "currentMilestone": "M01-markdown-viewer",
+      "currentTask": "T03-render-mermaid-flowcharts",
+      "updated": "2026-10-27"
+    }
+  ],
+  "completed": [],
+  "archived": []
+}

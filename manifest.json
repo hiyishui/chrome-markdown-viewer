@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Markdown Viewer",
+  "version": "1.0.0",
+  "description": "Render Markdown files as readable pages in Chrome.",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*.md",
+        "https://*/*.md",
+        "file:///*.md",
+        "http://*/*.markdown",
+        "https://*/*.markdown",
+        "file:///*.markdown"
+      ],
+      "js": ["src/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
